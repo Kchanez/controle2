@@ -1,0 +1,257 @@
+*{
+    align-items: center;
+}
+body
+{
+width: 100%; 
+background-color: #eaeaea;
+
+}
+#contain
+{
+    width: 75%;
+    margin: 0% auto;
+}
+header 
+{
+    background: linear-gradient(#FFFFFF 0%, #E4E4E4 100%);
+    height: 150px;
+    display: flex;
+}
+.img
+{
+    margin: 5px;
+    height: 92%;
+}
+  ul{
+      background-color:#333333;
+      border-radius: 0px 0px 20px 20px;
+      margin: 0%;
+      padding: 0%;
+  }
+  li {
+      display: inline-flex;
+      flex-direction: row;
+  }
+  li a:hover
+  {
+      background-color: #9c9a9a;
+  }
+ li a{
+     display: block;
+     padding: 14px;
+     text-decoration: none;
+     color: white;
+     text-align: center;
+ }
+.corp
+{
+    background-color: #FFF;
+    display: inline-flex;
+    flex-direction: row;
+    margin-top: 25px;
+    width: 100%;
+    min-height: 750px;
+    border-radius: 20px 20px 0px 0px;
+}
+.gauche{
+   text-align: center;
+    width: 64%;
+}
+.img1{
+    margin-top: 10px;
+}
+h3 , h5 {
+    color: #70abc4;
+}
+q {
+    quotes: "«\A0" "\A0»" '“' '”';
+    font-weight: bold;
+}
+.gauche p {
+    text-align: justify;
+    margin: 25px 8px;
+}
+.droit{
+    text-align: left;
+    width: 36%;
+    margin: 10px 5px 0px 0px;
+   
+}
+.bare{
+    background: linear-gradient(#FFFFFF 0%, #E4E4E4 100%);
+    height: 35px;
+    min-width: 85%;
+    border-radius: 15px 15px 0px 0px;
+    margin: 0px 12px 0px 15px;
+    padding-left: 15px;
+}
+.bare p{
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.bare , .bas
+{
+    border: 1px solid #ccc9c9;
+}
+.bas{
+    margin: -1px 15px ;
+    display: inline-block;
+    flex-direction: row;
+    width: 91%;
+    min-height: 225px;
+}
+#un , #deux , #trois {
+    display: inline-flex;
+}
+.bas p {
+    display: contents;
+}
+.img2{
+    height: 80px;
+    width: 25%;
+    margin: 5px 10px 0px 7px;
+    border-radius: 5px;
+}
+.gauche , .droit
+{
+    min-height: 750px;
+}
+
+footer{
+    background-color: white;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    margin-top: -1px;
+    padding: 0px 0px 0px 5px;
+    border-radius: 0px 0px 20px 20px;  
+}
+span{
+    font-weight: bold;
+}
+.corp , footer{
+    border: 1px solid #ccc9c9;
+}
+footer p 
+{
+    padding-top: 0px;
+    font-size: 13px;
+    flex-grow: 1;
+}
+.fot
+{
+    color: #a19ea3;
+    margin: 0px 18px;
+    flex-grow: 0;
+}
+@media screen and (max-width: 885px)
+{
+    *{
+        align-items: end;
+    }
+    .img , .img1 
+    {
+        width: 45%;
+    }
+    .droit {
+        width: 35%;
+    }
+    .bare {
+        min-height: 35px;
+        min-width: 79%;
+        margin: 0px 15px 0px 14px;
+    }
+    .bare p {
+        margin-top: 10px;
+        font-size: 2vw;
+    }
+    .bas {
+        width: 86%;
+        margin: -1px 0px 0px 15px;
+    }
+    .bas p {
+        display: contents;
+        font-size: 13px;
+    }
+    .img2 
+    {
+        min-height: 83px;
+        width: 30%;
+        margin-top: 7px;
+    }
+    #un, #deux, #trois {
+        margin-top: 5px;
+    }
+    
+    footer 
+    {  
+        height: 47px;
+        min-width: 97%;
+        padding: 0px 0px 0px 12px;
+    }
+    footer  p
+    {
+        font-size: 11px;
+    }
+    .fot {
+        margin: 10px 18px;
+    }
+}
+@media screen and (max-width: 576px)
+{
+    *
+    {
+        align-items: center;
+    }
+    header 
+    {
+        height: 110px;
+    }
+    li {
+        display: inline;
+        flex-direction: column;
+    }
+    .corp
+    {
+        flex-direction: column;
+        height: auto;
+    }
+    .bare {
+        min-height: 40px;
+        min-width: 85%;
+        margin: 0px 15px 0px 15px;
+    }
+    .bare p {
+        margin-top: 10px;
+        font-size: 19px;
+    }
+    .bas 
+    {
+        width: 90%;
+    }
+    .bas p {
+        font-size: 15px;
+    }
+    .img2 {
+        height: 80px;
+        width: 25%;
+    }
+    .gauche , .droit
+    {
+        width: 80%;
+        min-height: 375px;
+    }
+    footer
+    {
+        height: 45px;
+        margin-top: 0px;
+        padding: 0px 0px 0px 13px;
+         
+    }
+    footer p 
+    {
+        font-size: 11px;
+    }   
+}
